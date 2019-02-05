@@ -1,0 +1,13 @@
+grant{
+permission java.security.AllPermission;
+permission java.net.SocketPermission "localhost:0", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "127.0.0.1:1099-", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "*:1099-", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "*", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "colin-PC", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "localhost:1099-", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "127.0.0.1:0", "accept, connect, listen, resolve";
+permission java.net.SocketPermission "*:0-", "accept, connect, listen, resolve";
+permission java.io.FilePermission "C:\\", "read";
+permission java.io.FilePermission "C:\\-", "read";
+};
